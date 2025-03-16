@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
+                "file": "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "질문 정리"
+              "title": "질문 리스트"
             }
           }
         ]
@@ -161,14 +161,18 @@
   },
   "active": "6e14d47a9241aa62",
   "lastOpenFiles": [
+    "Resources(자료)/f-lab/무제.md",
+    "Resources(자료)/2025-03-10 멘토링.md",
+    "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
+    "Pasted image 20250316204506.png",
+    "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
+    "Resources(자료)/f-lab/2024-03-16",
     "Resources(자료)/과제.md",
     "Resources(자료)/모니터링(Monitoring).md",
-    "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
     "Resources(자료)/트랜잭션, 데이터베이스.md",
     "Resources(자료)/f-lab/2024-03-10/과제 리스트.md",
     "Resources(자료)/IoC, DI.md",
     "Resources(자료)/SOLID.md",
-    "Resources(자료)/2025-03-10 멘토링.md",
     "Resources(자료)/의존관계 주입 방법.md",
     "Resources(자료)/스프링 부트.md",
     "Resources(자료)/스프링.md",
@@ -187,9 +191,7 @@
     "Resources(자료)/응집도와 결합도.md",
     "Resources(자료)/커넥션 풀 설정 및 튜닝.md",
     "Resources(자료)/테스트와 테스트 종류.md",
-    "Resources(자료)/필터(Filter)와 인터셉터(Interceptor).md",
     "Pasted image 20250316154451.png",
-    "Resources(자료)/HTTP & Rest API.md",
     "Pasted image 20250316135026.png",
     "Pasted image 20250316134308.png",
     "Pasted image 20250316123902.png",
@@ -198,7 +200,6 @@
     "Pasted image 20250313213159.png",
     "Pasted image 20250313213039.png",
     "Pasted image 20250313212343.png",
-    "Pasted image 20250313212207.png",
     "Resources(자료)/f-lab/2024-03-10",
     "Resources(자료)/f-lab",
     "Untitled 1",
@@ -209,7 +210,6 @@
     "Archives(보관함)",
     "Resources(자료)",
     "Areas(영역)",
-    "Project(프로젝트)",
     "Untitled 2.canvas",
     "Untitled 8.canvas",
     "Untitled 7.canvas",
