@@ -16,6 +16,18 @@ HTTP 응답의 주요 구성 요소
 2. **헤더(Header)**
 3. **본문(Body)**
 
-- REST API란 무엇인가?
-- REST API의 각 메서드는 어떻게 사용하는가?
+Http는 무상태성을 가지는데 서버는 클라이언트가 보낸 요청과 이 다음 요청에 대한 연관관계가 없다라고 생각하고 요청을 받고 처리를 합니다.
+
+#### REST API란 무엇인가?
+HTTP 요청을 할 때 어떤 URI에 어떤 method를 사용할지에 대한 규약
+	
+#### REST API의 각 메서드는 어떻게 사용하는가?
+
+| HTTP 메서드   | 목적            | 설명                |
+| ---------- | ------------- | ----------------- |
+| **GET**    | 조회(Read)      | 리소스를 가져올 때 사용     |
+| **POST**   | 생성(Create)    | 새로운 리소스를 생성할 때 사용 |
+| **PUT**    | 수정(Update)    | 리소스를 완전히 교체할 때 사용 |
+| **PATCH**  | 부분 수정(Update) | 리소스의 일부만 수정할 때 사용 |
+| **DELETE** | 삭제(Delete)    | 리소스를 삭제할 때 사용     |
 - REST API 설계 원칙 ([MS REST API 디자인 가이드](https://learn.microsoft.com/ko-kr/azure/architecture/best-practices/api-design))

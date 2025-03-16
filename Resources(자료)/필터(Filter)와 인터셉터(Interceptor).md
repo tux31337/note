@@ -128,10 +128,10 @@ public class FilterConfig {
 스프링 인터셉터
 인터셉터는 Spring이 제공하는 기술로, 디스패쳐 서블릿이 컨트롤러를 호출하기 전/후 요청에 대해 부가적인 작업을 처리하는 객체입니다.
 
-제공하는 메서드
-preHandle : 핸들러가 실행되기 전에 실행
+제공하는 메서드(3개 다 default method라 필요한거만 사용하면 됩니다)
+preHandle : 핸들러가 실행되기 전에 실행, 비지니스 로직에서 공통적으로 처리해야 할 사항이 있으면 사용
 
-postHandle : 핸들러가 실행된 후에 실행  model and view 가넘어옴
+postHandle : 핸들러가 실행된 후에 실행  파라미터로 model and view 가넘어옴, model and view에 추가적인 작업을 하고 싶을 때 사용
 
 afterCompletion : 핸들러 이후에 실행되는 메서드  parameter로 exception 이 넘어오는데 비즈니스 로직에서  예외가 발생했거나, 어떤 리소스를 정리할때 사용할 수 있음
 
@@ -139,9 +139,42 @@ afterCompletion : 핸들러 이후에 실행되는 메서드  parameter로 excep
 WebMvcConfigurer 인터페이스를 구현한 클래스 내부에서
 addInterceptors라는 메서드를 오버라이딩해서 사용할 수 있음.
 
-인서텝트 실행 시점
+스프링 인서텝트 실행 시점
 핸들러 조회 -> 알맞은 핸들러 어댑터 가져옴 -> preHandle -> 핸들러 어댑터를 통해 핸들러 실행 -> postHandle -> view 관련 처리 -> afterCompletion
 
+![[Pasted image 20250316134308.png]]
+동작 방식
+-doDispatch-
+1. 핸들러 조회
+getHandler 를 통해 핸들러를 조회 해서 알맞은 핸들러가지고 오면
+핸드러뿐만 아니라 인터셉터 들이 리스트에 들어가 있음
+
+ 2. 핸들러를 처리할 수 있는 핸들러 어댑터 조회
+3. 그다음에 우리가  인터셉터에서 구현한 prehandle들을 수행할 수 있는 applyPreHandle이라는 메서드가 실행됨
+4. applyPreHandle 은 인터셉트들을 반복문을 돌면서 prehandle을 실행함. - 인터셉트에 등록된 순서로 실행
+5. 그 다음 비즈니스 로직 실행  3, 4, 5번 과정
+6. 비즈니스 로직 성공 후 applyPostHandle이 실행되면서 우리가 등록한 postHandle들이 실행됨
+     - 인터셉터가 등록된 수선의 역순으로 실행
+ 7. 6번이 끝나면 processDispatchRresult 가 실행
+ 8. 우선 view관련 로직을 처리하고 triggerAfterCompletion이 실행하면서 afterCompletion을 처리함 - 이것도 역순으로 실행하는듯?
 
 
+![[Pasted image 20250316135026.png]]
+필터는 chain.doFilter를 호출해야함
 
+왜 @ControllerAdvice??
+이건 적용범위가 dISPATCHERsERVLET
+인터셉터 자체가 DispatcherServlet에서 호출되기 때문에 @ControllerAdivce 관리 영역안에있음
+필터는 DispathcherServlet 이전이나 종료된 다음에 실행되서 범위를 넘어감.
+
+그래서 필터는 언제쓰고, 인터셉터는 언제써??
+
+서블릿필터를 스프링빈으로 등록할 수 없었음 예전에는...
+스프링에거 기본으로 제공하는 필터는
+인코딩, Post처리 뿐 아니라 Put, Patch, Delete HTTP 메서드를 서블릿에서 할 수 있도록 wRAPPING 해주는 스프링이 아닌 전반적인 웹에 관련된 것들을 해줌.
+
+인터셉터는 스프링 기술에 관련된 작업을 해줌..
+
+관심사 분리
+
+인가 처리 이런 스프링 관련 기술은 인터셉터, 웹에 관련된 거는 필터에서 처리
