@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
+                "file": "Resources(자료)/f-lab/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "질문 리스트"
+              "title": "무제"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -151,32 +151,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "6e14d47a9241aa62",
   "lastOpenFiles": [
+    "Pasted image 20250317110641.png",
+    "Pasted image 20250317073821.png",
+    "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
+    "Resources(자료)/Servlet Container 랑 Spring Container.md",
+    "Resources(자료)/SOLID.md",
+    "Resources(자료)/Spring Securiy.md",
+    "Resources(자료)/테스트와 테스트 종류.md",
+    "Resources(자료)/커넥션 풀 설정 및 튜닝.md",
+    "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
     "Resources(자료)/f-lab/무제.md",
     "Resources(자료)/2025-03-10 멘토링.md",
-    "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
     "Pasted image 20250316204506.png",
-    "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
     "Resources(자료)/f-lab/2024-03-16",
     "Resources(자료)/과제.md",
     "Resources(자료)/모니터링(Monitoring).md",
     "Resources(자료)/트랜잭션, 데이터베이스.md",
     "Resources(자료)/f-lab/2024-03-10/과제 리스트.md",
     "Resources(자료)/IoC, DI.md",
-    "Resources(자료)/SOLID.md",
     "Resources(자료)/의존관계 주입 방법.md",
     "Resources(자료)/스프링 부트.md",
     "Resources(자료)/스프링.md",
-    "Resources(자료)/Spring Securiy.md",
     "Resources(자료)/Web Server, WAS, Servlet Contaier.md",
     "2025-03-14.md",
     "무제.canvas",
@@ -184,13 +189,9 @@
     "PARA 시스템 구성.md",
     "무제 1.canvas",
     "의존성.md",
-    "Resources(자료)/Servlet Container 랑 Spring Container.md",
     "Resources(자료)/MVC, MVC2.md",
     "Resources(자료)/영속성 컨텍스트.md",
     "Resources(자료)/웹 & 앱 실시간 푸시 알림 & 메시지 구현기!.md",
-    "Resources(자료)/응집도와 결합도.md",
-    "Resources(자료)/커넥션 풀 설정 및 튜닝.md",
-    "Resources(자료)/테스트와 테스트 종류.md",
     "Pasted image 20250316154451.png",
     "Pasted image 20250316135026.png",
     "Pasted image 20250316134308.png",
@@ -199,7 +200,6 @@
     "Pasted image 20250314233226.png",
     "Pasted image 20250313213159.png",
     "Pasted image 20250313213039.png",
-    "Pasted image 20250313212343.png",
     "Resources(자료)/f-lab/2024-03-10",
     "Resources(자료)/f-lab",
     "Untitled 1",
