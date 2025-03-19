@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources(자료)/f-lab/무제.md",
+                "file": "Resources(자료)/f-lab/Spring 컨테이너 생성 과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "Spring 컨테이너 생성 과정"
             }
           }
         ]
@@ -161,8 +161,19 @@
   },
   "active": "6e14d47a9241aa62",
   "lastOpenFiles": [
-    "Pasted image 20250317110641.png",
-    "Pasted image 20250317073821.png",
+    "Pasted image 20250319090240.png",
+    "Pasted image 20250319090023.png",
+    "Pasted image 20250319090020.png",
+    "Pasted image 20250319090018.png",
+    "Pasted image 20250319090010.png",
+    "Pasted image 20250319090005.png",
+    "Pasted image 20250319090004.png",
+    "Pasted image 20250319085914.png",
+    "Pasted image 20250319085858.png",
+    "Pasted image 20250319085856.png",
+    "Pasted image 20250319085849.png",
+    "Resources(자료)/f-lab/무제.md",
+    "Resources(자료)/f-lab/Spring 컨테이너 생성 과정.md",
     "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
     "Resources(자료)/Servlet Container 랑 Spring Container.md",
     "Resources(자료)/SOLID.md",
@@ -170,9 +181,7 @@
     "Resources(자료)/테스트와 테스트 종류.md",
     "Resources(자료)/커넥션 풀 설정 및 튜닝.md",
     "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
-    "Resources(자료)/f-lab/무제.md",
     "Resources(자료)/2025-03-10 멘토링.md",
-    "Pasted image 20250316204506.png",
     "Resources(자료)/f-lab/2024-03-16",
     "Resources(자료)/과제.md",
     "Resources(자료)/모니터링(Monitoring).md",
@@ -191,15 +200,6 @@
     "의존성.md",
     "Resources(자료)/MVC, MVC2.md",
     "Resources(자료)/영속성 컨텍스트.md",
-    "Resources(자료)/웹 & 앱 실시간 푸시 알림 & 메시지 구현기!.md",
-    "Pasted image 20250316154451.png",
-    "Pasted image 20250316135026.png",
-    "Pasted image 20250316134308.png",
-    "Pasted image 20250316123902.png",
-    "Pasted image 20250315000137.png",
-    "Pasted image 20250314233226.png",
-    "Pasted image 20250313213159.png",
-    "Pasted image 20250313213039.png",
     "Resources(자료)/f-lab/2024-03-10",
     "Resources(자료)/f-lab",
     "Untitled 1",
