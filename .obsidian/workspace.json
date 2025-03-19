@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "eccbcdec949f70ae",
+    "id": "c7720b3c817bcabc",
     "type": "split",
     "children": [
       {
-        "id": "fb2e176f119ae286",
+        "id": "51063a1d5f0f26d8",
         "type": "tabs",
         "children": [
           {
-            "id": "6e14d47a9241aa62",
+            "id": "33c25d75b5cf8088",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources(자료)/공부/깃 pull request 작성 팁.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "깃 pull request 작성 팁"
+              "title": "새 탭"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8feec1cb53bf9a3c",
+    "id": "5f3b5078275ac76d",
     "type": "split",
     "children": [
       {
-        "id": "92e803690b4999ad",
+        "id": "7bc19a46c668c931",
         "type": "tabs",
         "children": [
           {
-            "id": "5086ee25880bf81e",
+            "id": "7bc497b3d2cfe260",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c2a1c28e12e91077",
+            "id": "2ec18232aac287a3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,35 +57,35 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
-            "id": "6dce8164472fd38d",
+            "id": "e93f8672b057a236",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "북마크"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "55088f9ed4989478",
+    "id": "70595e2199aa5e86",
     "type": "split",
     "children": [
       {
-        "id": "6b3397faff26daa1",
+        "id": "662723484516e5a9",
         "type": "tabs",
         "children": [
           {
-            "id": "ff25a215f38165fc",
+            "id": "93fbf08afcc17337",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "백링크"
             }
           },
           {
-            "id": "789272cf1ca8efc2",
+            "id": "a7af0df15e497594",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,30 +112,36 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "a3cc8a174ac25d50",
+            "id": "3390f184a53a6741",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
-            "id": "e0ddacf273f4c133",
+            "id": "4a4b5e5b65db3476",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "개요"
             }
           }
         ]
@@ -159,62 +161,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6e14d47a9241aa62",
-  "lastOpenFiles": [
-    "Project(프로젝트)/flab/개념정리 및 필요한 리소스/Spring Boot 설정관련.md",
-    "Resources(자료)/공부/Docker MySQL.md",
-    "Resources(자료)/공부/깃 pull request 작성 팁.md",
-    "Resources(자료)/공부/캐시 설정.md",
-    "Pasted image 20250318175529.png",
-    "Pasted image 20250318174618.png",
-    "Resources(자료)/모니터링(Monitoring).md",
-    "Resources(자료)/f-lab/2024-03-10/질문 정리.md",
-    "Resources(자료)/테스트와 테스트 종류.md",
-    "Resources(자료)/f-lab/2024-03-10/과제 리스트.md",
-    "무제 1.md",
-    "Resources(자료)/f-lab/무제.md",
-    "Project(프로젝트)/flab/개념정리 및 필요한 리소스",
-    "Project(프로젝트)/flab",
-    "Resources(자료)/공부",
-    "Resources(자료)/2025-03-10 멘토링.md",
-    "Resources(자료)/f-lab/2024-03-16/질문 리스트.md",
-    "Resources(자료)/필터(Filter)와 인터셉터(Interceptor).md",
-    "Resources(자료)/커넥션 풀 설정 및 튜닝.md",
-    "Resources(자료)/Spring Securiy.md",
-    "Resources(자료)/영속성 컨텍스트.md",
-    "Resources(자료)/Web Server, WAS, Servlet Contaier.md",
-    "Resources(자료)/MVC, MVC2.md",
-    "Resources(자료)/SOLID.md",
-    "Resources(자료)/스프링 부트.md",
-    "Resources(자료)/HTTP & Rest API.md",
-    "Pasted image 20250317110641.png",
-    "Pasted image 20250317073821.png",
-    "Pasted image 20250316204506.png",
-    "Resources(자료)/f-lab/2024-03-16",
-    "Resources(자료)/과제.md",
-    "Resources(자료)/트랜잭션, 데이터베이스.md",
-    "Resources(자료)/IoC, DI.md",
-    "Resources(자료)/의존관계 주입 방법.md",
-    "무제.canvas",
-    "무제 1.canvas",
-    "Pasted image 20250316154451.png",
-    "Pasted image 20250316135026.png",
-    "Pasted image 20250316134308.png",
-    "Pasted image 20250316123902.png",
-    "Pasted image 20250315000137.png",
-    "Resources(자료)/f-lab/2024-03-10",
-    "Resources(자료)/f-lab",
-    "Untitled 1",
-    "Resources(자료)/Untitled",
-    "Resources(자료)",
-    "Untitled",
-    "Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 8.canvas",
-    "Untitled 7.canvas",
-    "Untitled 6.canvas",
-    "Untitled 5.canvas",
-    "Untitled 4.canvas",
-    "Untitled 3.canvas"
-  ]
+  "active": "33c25d75b5cf8088",
+  "lastOpenFiles": []
 }
