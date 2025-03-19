@@ -19,8 +19,27 @@ HTTP 응답의 주요 구성 요소
 Http는 무상태성을 가지는데 서버는 클라이언트가 보낸 요청과 이 다음 요청에 대한 연관관계가 없다라고 생각하고 요청을 받고 처리를 합니다.
 
 #### REST API란 무엇인가?
-HTTP 요청을 할 때 어떤 URI에 어떤 method를 사용할지에 대한 규약
-	
+REST는 특정 프로토콜에 종속되지 않지만, **일반적으로 HTTP를 기반으로 하는 웹 API 설계 방식**으로 사용됩니다.
+REST의 주요 개념
+- 리소스 중심
+	- API에서 다루는 모든 데이터 및 서비스는 **리소스**로 표현
+	- 리소스는 **고유한 URI(Uniform Resource Identifier)** 로 식별
+- 표현
+	- 클라이언트는 리소스의 상태를 표현하는 데이터를 주고받습니다.
+	- JSON이 가장 많이 사용
+- 균일한 인터페이스
+	- REST API는 **표준 HTTP 메서드**를 활용하여 일관된 인터페이스를 제공합니다
+
+| HTTP 메서드 | 기능          |
+| -------- | ----------- |
+| GET      | 리소스 조회 (읽기) |
+| POST     | 새 리소스 생성    |
+| PUT      | 리소스 전체 업데이트 |
+| PATCH    | 리소스 일부 업데이트 |
+| DELETE   | 리소스 삭제      |
+
+- 무상태성(Stateless)
+	- 
 #### REST API의 각 메서드는 어떻게 사용하는가?
 
 | HTTP 메서드   | 목적            | 설명                |
@@ -30,4 +49,11 @@ HTTP 요청을 할 때 어떤 URI에 어떤 method를 사용할지에 대한 규
 | **PUT**    | 수정(Update)    | 리소스를 완전히 교체할 때 사용 |
 | **PATCH**  | 부분 수정(Update) | 리소스의 일부만 수정할 때 사용 |
 | **DELETE** | 삭제(Delete)    | 리소스를 삭제할 때 사용     |
-- REST API 설계 원칙 ([MS REST API 디자인 가이드](https://learn.microsoft.com/ko-kr/azure/architecture/best-practices/api-design))
+
+
+	HTTP 요청을 할 때 어떤 URI에 어떤 method를 사용할지에 대한 규약
+### REST API 설계 원칙
+1. 리소스를 중심으로 API 디자인 구성
+2. HTTP 메서드의 올바른 사용
+3. 일관된 응답 구조 및 상태 코드 활용
+4. 무상태성 유지
